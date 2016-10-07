@@ -11,7 +11,7 @@ const TwitterIcon = generateShareIcon('twitter');
 const shareUrl = 'http://admityouhaveaproblem.com';
 const via = 'erictherobot';
 const hashtags = ['admityouhaveaproblem'];
-const iconBgStyle = { fill: 'darkturquoise' };
+const iconBgStyle = { fill: 'transparent' };
 const logoFillColor = '#1DADEA';
 
 class TaskItem extends Component {
