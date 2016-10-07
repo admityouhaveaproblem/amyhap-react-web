@@ -26,6 +26,8 @@ html {
   overflow-y: scroll;
   height: 100%;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 body {

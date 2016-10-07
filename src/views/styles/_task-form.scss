@@ -14,7 +14,7 @@
 .task-form__input {
   outline: none;
   border: 0;
-  border-bottom: 2px dotted #daa9ff;
+  border-bottom: 1px dotted lighten($base-background-color, 20%);
   border-radius: 0;
   padding: 0 0 5px 0;
   width: 100%;
@@ -31,12 +31,12 @@
   }
 
   &::placeholder {
-    color: #daa9ff;
+    color: darken($base-font-color, 10%);
     opacity: 1; // firefox native placeholder style has opacity < 1
   }
 
   &:focus::placeholder {
-    color: #7f3faf;
+    color: lighten($base-font-color, 20%);
     opacity: 1;
   }
 

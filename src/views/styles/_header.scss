@@ -16,6 +16,7 @@
   font-weight: 400;
   text-rendering: auto;
   transform: translate(0,0);
+  color: darken($base-font-color, 10%);
 }
 
 
@@ -32,7 +33,7 @@
     &:last-child {
       margin-left: 12px;
       padding-left: 12px;
-      border-left: 1px solid #333;
+      border-left: 1px solid darken($base-font-color, 20%);
     }
 
     &:first-child {
@@ -43,7 +44,7 @@
   .btn {
     display: block;
     margin: 0;
-    color: #daa9ff;
+    color: darken($base-font-color, 10%);
     font-size: rem(14px);
     line-height: 24px;
   }
@@ -60,7 +61,7 @@
 
   .link {
     display: block;
-    color: inherit;
+    color: darken($base-font-color, 10%);
     font-size: rem(14px);
     text-decoration: none;
     text-rendering: auto;
