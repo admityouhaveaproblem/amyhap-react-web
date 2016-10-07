@@ -32,7 +32,8 @@
     text-decoration: none;
 
     &.active {
-      color: darken($base-font-color, 20%);
+      color: darken($base-font-color, 10%);
+      text-decoration: underline;
     }
   }
 }
