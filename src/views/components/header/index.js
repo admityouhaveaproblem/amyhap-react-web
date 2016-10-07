@@ -8,7 +8,7 @@ const Header = ({authenticated, signOut, signInWithTwitter}) => {
     <header className="header">
       <div className="g-row">
         <div className="g-col">
-          <h1 className="header__title"><a href="/">Admit You Have A Problem</a></h1>
+          <h1 className="header__title"><a href="/">AMYHAP</a></h1>
 
           <ul className="header__actions">
             {authenticated ? <li><a href="/" className="btn">Dashboard</a></li> : null} {authenticated ? <li><button className="btn" onClick={signOut}>Sign Out</button></li> : <li><button className="btn btn-twitter" onClick={signInWithTwitter} type="button"><i className="fa fa-twitter" aria-hidden="true"></i> Connect</button></li>}
