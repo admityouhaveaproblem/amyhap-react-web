@@ -106,7 +106,7 @@
   }
 
   .task-item--completed & {
-    color: #666;
+    color: darken($base-font-color, 15%);
   }
 
   .task-item--completed &:after {
